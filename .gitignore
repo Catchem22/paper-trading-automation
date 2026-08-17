@@ -1,0 +1,16 @@
+# Secrets and local runtime configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+coverage.xml
+
+# Runtime artifacts
+reports/
+*.log
